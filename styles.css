@@ -1,0 +1,188 @@
+/* CSS Styling */
+
+/* All Pages Styling */
+body {
+    background: #F2F2F2;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 14px;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    background-color: #6bbfa0;
+    color: white;
+    padding: 5px;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+a, li > a {
+    color: black;
+}
+
+/* Header Text */
+.textlogo {
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 40px; 
+    text-align: center;
+}
+
+/* Navigation Bar */
+
+#nav ul {
+    display: flex; 
+    list-style-type: none;
+    padding: 0px; 
+    gap: 10px;
+}
+
+#nav li {
+    flex-grow: 1; 
+    text-align: center;
+}
+/* Link - Without Hover */
+#nav a:link {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 14px; 
+     font-variant: small-caps; 
+     text-decoration: none;
+}
+/* Link - With Hover */
+#nav a:hover {
+    background-color: #6bbfa0;
+    color: white;
+    padding: 10px;
+    text-decoration: overline;
+    font-weight: bold;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Index.html Specifics */
+
+#main {
+    flex: 0 1 70%;
+}
+
+#aside {
+    flex: 0 1 30%;
+}
+
+.profile {
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+
+.sm-emphasis {
+    color: #A62D37;
+    font-weight: bold;
+}
+
+.emphasis {
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #A62D37;
+    color: white;
+    padding: 10px;
+}
+
+/* About.html Specifics */
+.aboutprofile {
+    width: 70%;
+    border: solid;
+    border-width: 10px;
+    border-radius: 10px;
+    border-color: #A62D37;
+}
+
+/* Resume.html Specifics */
+table, td {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid;
+    border-color: #b0b0b0;
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #6bbfa0;
+    color: white;
+    font-weight: bold;
+}
+
+.speciallink {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    text-align: center;
+    background-color: #A62D37;
+    color: white;
+    padding: 5px;
+}
+
+#main > div {
+    border-color: #b0b0b0;
+    border-style: solid;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h4 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    text-align: center;
+    background-color: #A62D37;
+    color: white;
+    padding: 5px;
+}
+
+h5 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    padding: 5px;
+}
+
+ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+/* Contact.html Specifics*/
+
+#message {
+    width: 70%;
+}
+
+.contactprofiles {
+    height: 200px;
+    width: 200px;
+    float: right;
+    padding: 5px;
+    border: solid;
+    border-width: 5px;
+    border-radius: 5px;
+    border-color: #6bbfa0;
+    position: relative;
+    bottom: 100px;
+    right: 25px;
+}
+

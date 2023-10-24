@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Home</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Header Stuff -->
+        <div id="header">
+            <h1 class="textlogo">Pancake De Lira</h1>
+            <h2>Web Developer & Best Guinea Pig</h2>
+        </div>
+        <!-- Navigation Bar -->
+        <div id="nav">
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="about.html">About</a></li>
+                <li> <a href="resume.html">Resume</a></li>
+                <li> <a href="contact.html">Contact Me</a></li>
+            </ul>
+        </div>
+        <div id="container">
+            <div id="main">
+                <img src="resources/images/pancake-profile.png" alt="Pancake's Profile Picture" class="profile">
+                <h3>Hi! I'm Pancake!</h3>
+                <p>I have almost 5 years of experience of being a guinea pig, but 0 years of experience web developing. 
+                    However, I am very confident that I can do a very good job at creating a website as long as my mom 
+                    can do all the work for me. As a guinea pig, I am an avid and professional eater of lettuce, producer 
+                    of intricate hay nests and hideouts, and the loudest wheeker in Pullman, WA. My wheeks are so loud, I 
+                    scare my mom at 3 a.m. in the morning. That should tell you, 
+                    <span class="sm-emphasis">I'm good at what I do as a guinea pig.</span> 
+                    <span class="emphasis">I may not know what to do if you needed a full stack website, but I know I'm the best guinea pig.</span>
+                </p>
+            </div>
+            <div id="aside">
+                
+            </div>
+        </div>
+        
+        <!-- JavaScript Program -->
+        <script>
+            function evenCountdown(eNum) {
+                for (let i = 1; i <= eNum; i++) {
+                    console.log(i);
+                }
+            }
+    
+            // Get a number from the user
+            userInput = prompt("Enter a number:");
+    
+            // Convert the user input to an integer
+            number = parseInt(userInput);
+            
+            // Error/Value Checking
+            if(isNaN(number)) {
+                console.log("Invalid input. Please enter a valid number.");
+            }
+            else if(Math.sign(number) == -1){
+                console.log("Invalid input. Please enter a positive number.");
+            }
+            // At this point, we know the input from the user is a number
+            else{
+                // If number is even, and if so then run the evenCountdown function
+                if(number % 2 === 0) {
+                    evenCountdown(number);
+                } 
+                // If number is odd, then print to console
+                else {
+                    console.log("This is an odd number.");
+                }
+            }
+        </script>
+        
+    </body>
+</html>
+
+
+<!-- Valid IPv4 Address -->
+    <!-- 
+    When it comes to IPv4 addresses, you can have a range of values within an IP address. IPv4 conatins a 32-bit address, 
+    where values can be anywhere from 0-255. 
+    For example, a few examples of valid IPv4 addresses are as follows:
+        - 198.51.100.7
+        - 192.0.0.0
+        - 255.255.255.255 
+-->
